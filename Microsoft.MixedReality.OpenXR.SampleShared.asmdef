@@ -1,0 +1,27 @@
+{
+    "name": "Microsoft.MixedReality.OpenXR.SampleShared",
+    "rootNamespace": "Microsoft.MixedReality.OpenXR.Sample",
+    "references": [
+        "Microsoft.MixedReality.OpenXR",
+        "Unity.XR.OpenXR",
+        "Unity.XR.ARFoundation",
+        "Unity.XR.ARSubsystems",
+        "Unity.XR.CoreUtils",
+        "Unity.XR.Management"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.xr.arfoundation",
+            "expression": "5.0.0",
+            "define": "USE_ARFOUNDATION_5_OR_NEWER"
+        }
+    ],
+    "noEngineReferences": false
+}
